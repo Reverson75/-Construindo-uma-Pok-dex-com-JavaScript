@@ -1,0 +1,30 @@
+* {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#fff
+
+}
+
+.content {
+    border-style: outset;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #98d5d7;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        border-style: outset;
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
